@@ -177,7 +177,7 @@ border-radius: 4px;
 }
 .section-title-secondary {
   font-weight: 700;
-  
+
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -192,8 +192,15 @@ border-radius: 4px;
   padding-bottom: 94px;
 }
 
+.section-main-second {
+  background:var(--project-background);
+   padding-bottom: 94px;
+}
+
 .section-team {
   background:var(--section-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-team-ul {
