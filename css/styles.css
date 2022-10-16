@@ -118,9 +118,7 @@ color:var(--active-color);
 }
 
 /* ГЕРОЙ */
-.section-hero {
-  background-color:var(--hero-background);
-}
+
 
 .section-hero {
   background-color:var(--section-hero-color);
@@ -283,6 +281,8 @@ color: var(--p-color);
 
 .section-footer {
     background:var(--section-hero-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .adrress-target {
@@ -315,7 +315,7 @@ line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color:var(--btn-color);
 display: inline-block;
-margin-bottom: 60px;
+
 }
 
 .mail-footer:hover, 
