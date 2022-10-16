@@ -39,6 +39,11 @@ ul {
 text-decoration: none;
 }
 
+.header-geometry {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -123,6 +128,8 @@ color:var(--active-color);
 .section-hero {
   background-color:var(--section-hero-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   outline: 2px solid tomato;
 }
 
@@ -170,7 +177,7 @@ border-radius: 4px;
 }
 .section-title-secondary {
   font-weight: 700;
-  margin-top: 94px;
+  
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -181,6 +188,8 @@ border-radius: 4px;
 
 .section-main {
   background:var(--project-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-team {
