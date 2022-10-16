@@ -51,6 +51,8 @@ outline: 2px solid tomato;
 
 .logo-color {
   color:var(--active-color);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .studio-color {
@@ -290,16 +292,30 @@ font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color:var(--project-background);
+display: inline-block;
+margin-bottom: 9px;
 
 }
 
-.mail-footer, .tel-footer {
+.mail-footer {
 
 font-style: normal;
 font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color:var(--btn-color);
+display: inline-block;
+margin-bottom: 9px;
+}
+
+.tel-footer {
+  font-style: normal;
+font-size: 14px;
+line-height:calc(24 / 14);
+letter-spacing: 0.03em;
+color:var(--btn-color);
+display: inline-block;
+margin-bottom: 60px;
 }
 
 .mail-footer:hover, 
@@ -314,6 +330,8 @@ color:var(--btn-color);
 
 .studio-footer-color {
 color: #FFFFFF;
+display: inline-block;
+  margin-bottom: 20px;
 }
 
 .addres-footer {
