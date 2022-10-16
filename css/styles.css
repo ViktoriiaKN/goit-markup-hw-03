@@ -269,6 +269,8 @@ border: 1px solid transparent;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color:var(--p-color);
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .about-team {
@@ -277,6 +279,8 @@ font-size: 16px;
 line-height:calc(19 / 16);
 letter-spacing: 0.03em;
 color: var(--p-color);
+margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .about-portfolio {
@@ -285,6 +289,8 @@ color: var(--p-color);
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color:var(--p-color);
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 
 .main-portfolio-title {
