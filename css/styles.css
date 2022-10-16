@@ -20,12 +20,20 @@ body {
   background: #ffff;
 }
 
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
 h1, h2, h3, p {
   margin: 0;
 }
 
-ul 
-
+ul {
+  margin: 0%;
+  padding: 0%;
+}
 
 .text-decoration {
 text-decoration: none;
@@ -38,7 +46,7 @@ text-decoration: none;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-
+outline: 2px solid tomato;
 }
 
 .logo-color {
@@ -76,6 +84,7 @@ color:var(--active-color);
 
 .list {
   list-style: none;
+  outline: 2px solid tomato;
 }
 
 .header-tel {
@@ -113,15 +122,17 @@ color:var(--active-color);
 
 .section-hero {
   background-color:var(--section-hero-color);
+  text-align: center;
+  outline: 2px solid tomato;
 }
 
 .hero-title {
 margin-top: 0%;
-margin-bottom: 0%;
+margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -142,6 +153,7 @@ border-radius: 4px;
   color:var(--project-background);
   background-color:var(--active-color);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .hero-button:hover,
@@ -158,6 +170,7 @@ border-radius: 4px;
 }
 .section-title-secondary {
   font-weight: 700;
+  margin-top: 94px;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -176,6 +189,11 @@ border-radius: 4px;
 
 .section-team-ul {
   background-color: var(--white-color);
+  outline: 2px solid tomato;
+}
+
+.work-profile {
+  outline: 2px solid tomato;
 }
 
 .team {
@@ -219,6 +237,7 @@ border-radius: 4px;
   cursor: pointer;
   background:var(--section-background);
 border-radius: 4px;
+border: 1px solid transparent;
 }
 
 
