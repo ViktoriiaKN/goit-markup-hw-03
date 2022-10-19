@@ -28,6 +28,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.container-p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  outline: 2px solid tomato;
+}
+
 .img {
   display: block;
 }
@@ -241,7 +249,7 @@ border-radius: 4px;
 
 .feature-ul {
   display: flex;
-  margin-right: 30px;
+
 }
 
 .section-main-second {
@@ -253,6 +261,7 @@ border-radius: 4px;
   background:var(--section-background);
   padding-top: 94px;
   padding-bottom: 94px;
+  flex-wrap: wrap;
 }
 
 .section-team-ul {
@@ -330,6 +339,7 @@ outline: 2px solid tomato;
   color:var(--p-color);
   margin-top: 10px;
   margin-bottom: 0;
+  margin-right: 30px;
 }
 
 .about-team {
