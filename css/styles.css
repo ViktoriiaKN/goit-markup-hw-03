@@ -275,8 +275,18 @@ border-radius: 4px;
 }
 
 .work-profile {
+  display: flex;
   justify-content: center;
+  
   outline: 2px solid tomato;
+}
+
+.work-list {
+  margin-right: 30px;
+}
+
+.work-list:last-child {
+  margin-right: 0;
 }
 
 .team {
