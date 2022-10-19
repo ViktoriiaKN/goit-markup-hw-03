@@ -312,6 +312,7 @@ border-radius: 4px;
 .flex-portfolio-btn {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .btn-portfolio {
@@ -374,7 +375,7 @@ margin-top: 10px;
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 2px solid tomato;
-  
+
 }
 
 .flex-element:nth-child(3n) {
