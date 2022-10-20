@@ -39,7 +39,7 @@ margin-right: auto;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+
 }
 
 .img {
@@ -79,8 +79,8 @@ text-decoration: none;
   letter-spacing: 0.03em;
   margin-right: 93px;
   display: block;
-
-outline: 2px solid tomato;
+  padding-top: 24px;
+  padding-bottom: 25px;
 align-items: center;
 }
 
@@ -141,7 +141,7 @@ color:var(--active-color);
 
 .list {
   list-style: none;
-  outline: 2px solid tomato;
+
 }
 
 .header-tel {
@@ -191,7 +191,6 @@ margin-left: 344px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  outline: 2px solid tomato;
 }
 
 .hero-title {
@@ -238,7 +237,7 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: var(--nav-color);
   margin-bottom: 50px;
-  outline: 2px solid tomato;
+
 }
 .section-title-secondary {
   font-weight: 700;
@@ -281,7 +280,7 @@ border-radius: 4px;
 
 .section-team-ul {
   background-color: var(--white-color);
-  outline: 2px solid tomato;
+
   display: flex; 
   justify-content:space-around;
   gap: 30px;
@@ -291,7 +290,7 @@ border-radius: 4px;
   display: flex;
   justify-content: center;
 
-  outline: 2px solid tomato;
+
 }
 
 .work-list {
@@ -352,7 +351,7 @@ border-radius: 4px;
 border-radius: 4px;
 margin-right: 8px;
 border: 1px solid transparent;
-outline: 2px solid tomato;
+
 }
 
 
@@ -371,13 +370,6 @@ outline: 2px solid tomato;
   margin-top: 10px;
   margin-bottom: 0;
   margin-right: 30px;
-}
-
-.container-line {
-  border-right: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-
 }
 
 .about-team {
@@ -406,7 +398,9 @@ margin-bottom: 0;
   flex-wrap: wrap;
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 2px solid tomato;
+border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 width: 370px;
 }
 
