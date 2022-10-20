@@ -20,6 +20,10 @@ body {
   background: #ffff;
 }
 
+address {
+  margin-top: 20px;
+}
+
 .container {
 width: 1200px;
 padding-left: 15px;
@@ -33,17 +37,15 @@ margin-right: auto;
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  display: flex;
-  flex-direction: column;
+
   text-align: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+
 
 }
 
 .img {
   display: block;
+  max-width: 100%;
 }
 
 h1, h2, h3, p {
@@ -60,7 +62,7 @@ text-decoration: none;
 }
 
 .header-geometry {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .nav-flex-header {
@@ -79,21 +81,18 @@ text-decoration: none;
   letter-spacing: 0.03em;
   margin-right: 93px;
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
 align-items: center;
 }
 
 .logo-color {
   color:var(--active-color);
-  display: inline-block;
-  margin-bottom: 20px;
+
 }
 
 .studio-color {
   color:var(--font-color);
-  display: inline-block;
-  margin-bottom: 20px;
+
 }
 
 .header-nav-item {
@@ -104,7 +103,7 @@ align-items: center;
 
 .nav-ul {
   display: flex;
-
+margin-left: auto;
 }
 
 .nav-li {
@@ -151,6 +150,8 @@ color:var(--active-color);
   line-height:calc(16 / 14);
   letter-spacing: 0.02em;
   color:var(--p-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
   
 }
 .header-tel:hover,
@@ -164,8 +165,10 @@ color:var(--active-color);
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-margin-left: 344px;
+
   color:var(--p-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-mail:hover,
@@ -175,8 +178,7 @@ margin-left: 344px;
 
 .item-tel-mail { 
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .nav-ul .item-tel-mail + .item-tel-mail {
@@ -211,7 +213,7 @@ margin-bottom: 30px;
 
 .hero-button {
   font-family: inherit;
-display: inline-block;
+
 font-weight: 700;
 font-size: 16px;
 line-height:calc(30 / 16);
@@ -222,7 +224,7 @@ border-radius: 4px;
   color:var(--project-background);
   background-color:var(--active-color);
   cursor: pointer;
-  border: 1px solid transparent;
+  border-color:transparent;
 }
 
 .hero-button:hover,
@@ -237,8 +239,14 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: var(--nav-color);
   margin-bottom: 50px;
+ 
 
 }
+
+.title-main {
+text-align: center;
+}
+
 .section-title-secondary {
   font-weight: 700;
 
@@ -279,11 +287,15 @@ border-radius: 4px;
 }
 
 .section-team-ul {
-  background-color: var(--white-color);
+
 
   display: flex; 
   justify-content:space-around;
   gap: 30px;
+}
+
+.team-li {
+background-color:var(--white-color);
 }
 
 .work-profile {
@@ -335,6 +347,7 @@ border-radius: 4px;
 .flex-portfolio-btn {
   display: flex;
   margin-bottom: 50px;
+  
   justify-content: center;
 }
 
@@ -349,9 +362,12 @@ border-radius: 4px;
   cursor: pointer;
   background:var(--section-background);
 border-radius: 4px;
-margin-right: 8px;
-border: 1px solid transparent;
 
+border: 1px solid transparent;
+padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 
@@ -368,8 +384,7 @@ border: 1px solid transparent;
   letter-spacing: 0.03em;
   color:var(--p-color);
   margin-top: 10px;
-  margin-bottom: 0;
-  margin-right: 30px;
+
 }
 
 .about-team {
@@ -396,12 +411,14 @@ margin-bottom: 0;
 .flex-element {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 30px;
-  margin-bottom: 30px;
-border-right: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
+ gap: 30px;
+
+}
+
+.border-text-portfolio {
   border-bottom: 1px solid #EEEEEE;
-  
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
 
 .flex-element:nth-child(3n) {
@@ -424,6 +441,18 @@ border-right: 1px solid #EEEEEE;
     background:var(--section-hero-color);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.logo-link-footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  display: block;
+
+align-items: center;
 }
 
 .adrress-target {
@@ -472,7 +501,7 @@ display: inline-block;
 .studio-footer-color {
 color: #FFFFFF;
 display: inline-block;
-  margin-bottom: 20px;
+
 }
 
 .addres-footer {
