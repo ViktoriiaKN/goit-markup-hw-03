@@ -35,6 +35,10 @@ margin-right: auto;
   padding-right: 70px;
   display: flex;
   flex-direction: column;
+  width: 130px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   outline: 2px solid tomato;
 }
 
@@ -53,6 +57,10 @@ ul {
 
 .text-decoration {
 text-decoration: none;
+}
+
+.header-geometry {
+  border: 1px solid #ECECEC;
 }
 
 .nav-flex-header {
@@ -274,12 +282,14 @@ border-radius: 4px;
   background-color: var(--white-color);
   outline: 2px solid tomato;
   display: flex; 
+  justify-content:space-around;
+  gap: 30px;
 }
 
 .work-profile {
   display: flex;
   justify-content: center;
-  
+
   outline: 2px solid tomato;
 }
 
@@ -361,6 +371,13 @@ outline: 2px solid tomato;
   margin-right: 30px;
 }
 
+.container-line {
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  width: 322px;
+}
+
 .about-team {
   font-style: normal;
 font-size: 16px;
@@ -369,6 +386,7 @@ letter-spacing: 0.03em;
 color: var(--p-color);
 margin-top: 10px;
   margin-bottom: 0;
+   
 }
 
 .about-portfolio {
