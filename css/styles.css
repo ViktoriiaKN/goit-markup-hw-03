@@ -66,6 +66,8 @@ text-decoration: none;
 .nav-flex-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  text-align: left;
 }
 
 .logo-link {
@@ -77,8 +79,7 @@ text-decoration: none;
   letter-spacing: 0.03em;
   margin-right: 93px;
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 outline: 2px solid tomato;
 align-items: center;
 }
@@ -406,7 +407,7 @@ margin-bottom: 0;
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 2px solid tomato;
-
+width: 370px;
 }
 
 .flex-element:nth-child(3n) {
