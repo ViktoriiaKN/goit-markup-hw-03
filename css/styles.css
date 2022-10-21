@@ -43,7 +43,7 @@ margin-right: auto;
 
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
 }
@@ -271,7 +271,15 @@ text-align: center;
 
 .feature-ul {
   display: flex;
+flex-basis: content;
+}
 
+.feature-li {
+  margin-right: 30px;
+}
+
+.feature-li:last-child {
+  margin-right: 0;
 }
 
 .section-main-second {
@@ -349,6 +357,14 @@ background-color:var(--white-color);
   margin-bottom: 50px;
   
   justify-content: center;
+}
+
+.btn-li {
+  margin-right: 8px;
+}
+
+.btn-li:last-child {
+  margin-right: 0;
 }
 
 .btn-portfolio {
@@ -463,9 +479,17 @@ line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color:var(--project-background);
 display: inline-block;
-margin-bottom: 9px;
+
 
 }
+
+.footer-li {
+  margin-bottom: 9px;
+}
+
+.footer-li:last-child {
+  margin-bottom: 0;
+} 
 
 .mail-footer {
 
