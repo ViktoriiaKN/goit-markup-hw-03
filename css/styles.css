@@ -271,15 +271,7 @@ text-align: center;
 
 .feature-ul {
   display: flex;
-flex-basis: content;
-}
-
-.feature-li {
-  margin-right: 30px;
-}
-
-.feature-li:last-child {
-  margin-right: 0;
+flex-basis: ((100% - 30px * 3) / 4)
 }
 
 .section-main-second {
@@ -435,6 +427,10 @@ margin-bottom: 0;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .flex-element:nth-child(3n) {
