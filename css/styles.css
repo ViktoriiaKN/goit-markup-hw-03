@@ -274,7 +274,7 @@ text-align: center;
 }
 
 .feature-li {
-flex-basis: calc (100%  / 4 );
+flex-basis: calc(100%  / 4 );
 margin-right: 30px;
 }
 
