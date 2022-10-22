@@ -271,7 +271,15 @@ text-align: center;
 
 .feature-ul {
   display: flex;
-flex-basis: ((100% - 30px * 3) / 4)
+}
+
+.feature-li {
+flex-basis: calc (100%  / 4 );
+margin-right: 30px;
+}
+
+.feature-li:last-child {
+  margin-right: 0;
 }
 
 .section-main-second {
